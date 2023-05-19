@@ -9,8 +9,8 @@ int main() {
     B b("dataB");
     a.process(b.process());
 
-    std::cout << "a: " << a << std::endl;
     std::cout << "b: " << b << std::endl;
+    std::cout << "a: " << a << std::endl;
 
     return 0;
 }

@@ -13,6 +13,7 @@ public:
 
     virtual ~A();
 
+
     void process(const std::string &data);
 
     friend std::ostream &operator<<(std::ostream &out, const A &a);

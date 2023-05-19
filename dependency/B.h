@@ -12,6 +12,7 @@ public:
 
     virtual ~B();
 
+
     std::string process();
 
     friend std::ostream &operator<<(std::ostream &out, const B &b);
