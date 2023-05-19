@@ -5,7 +5,7 @@
 
 int main() {
 
-    A a("dataA", "dataB");
+    A a("dataB", "dataA");
 
     std::cout << "a: " << a << std::endl;
     std::cout << "a.b: " << a._b << std::endl;

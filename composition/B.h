@@ -1,5 +1,5 @@
-#ifndef DEPENDENCY_B_H
-#define DEPENDENCY_B_H
+#ifndef COMPOSITION_B_H
+#define COMPOSITION_B_H
 
 #include <string>
 #include <ostream>
@@ -12,6 +12,7 @@ public:
 
     virtual ~B();
 
+
     void process();
 
     friend std::ostream &operator<<(std::ostream &out, const B &b);
@@ -23,4 +24,4 @@ private:
 };
 
 
-#endif //DEPENDENCY_B_H
+#endif //COMPOSITION_B_H

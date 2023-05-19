@@ -4,15 +4,12 @@
 #include "A.h"
 #include "B.h"
 
-void A::process() {
-
-}
-
-A::A(const std::string &data, const std::string &dataB) : _data(data), _b(B(dataB)) {}
-
+A::A(const std::string &dataB, const std::string &data) : _b(B(dataB)), _data(data) {}
 
 A::~A() {}
 
+
+void A::process() {}
 
 std::ostream &operator<<(std::ostream &out, const A &a) {
     out << a._data;

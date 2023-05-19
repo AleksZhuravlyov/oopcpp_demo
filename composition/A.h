@@ -1,5 +1,5 @@
-#ifndef DEPENDENCY_A_H
-#define DEPENDENCY_A_H
+#ifndef COMPOSITION_A_H
+#define COMPOSITION_A_H
 
 #include <string>
 #include <ostream>
@@ -28,4 +28,4 @@ private:
 };
 
 
-#endif //DEPENDENCY_A_H
+#endif //COMPOSITION_A_H
